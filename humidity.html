@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Web Homework-Weather Mainpage</title>
+  <title> Latitude vs. Humidity </title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -18,7 +18,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-lat"  href="./index.html">Latitude</a>
+      <a class="navbar-lat"  href="./index.html">Latitude</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,62 +44,31 @@
     <!-- /.container-fluid -->
   </nav>
 
-  <!-- Creates the Overall Grid -->
   <div class="container">
-
     <div class="row">
-
-        <div class="col-md-6 pad top"> <br>
-          <h3>Summary: Latitude  vs. X</h3> <br>
+        <div class="col-md-12 pad top"> <br>
+          <h3>Max  Humidity</h3> <br>
+          <hr>
+          <article>
+            <a href="./humiditymap.png">
+            <img target="_blank" src="./humiditymap.png" alt="Latitude vs. Humidity" width="800" height="500">
+            </a>
+          </article>
         </div>
 
-        <div class="col-md-6 pad top"> <br>
-          <h3>Visualizations</h3> <br>
-        </div>
 
-      </div>
 
     <div class="row">
-
-        <div class="col-md-6 pad top"> <br>
-
-          <div class="pull-left">
-            <img src="./temperaturemap.png" alt="Latitude vs. Max Temperature" width="200" height="175">
-          </div>
-
+        <div class="col-md-12 pad top"> <br>
           <div class="text-left">
-            <p> The purpose of this project was to analyze how weather changes as you get closer to the
-                equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap
-                API to assemble a dataset of over 500 cities. </p> <br>
-            <p> After assembling the dataset, Matplotlib was used to plot various aspects of weather
-                vs. latitude. Factors analyzed included: temperature, cloudiness, wind-speed and humidity. </p> <br>
-
+            <p> As expected, the weather becomes significantly humid as one approaches the  Equator. More interestingly ,however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere.  </p> <br>
           </div>
-
-        </div>
-
-        <div class="col-md-3 pad top"> <br>
-
-          <div class="pull-right">
-            <a href="./temp.html"><img src="./temperaturemap.png" alt="Latitude vs. Max Temperature" width="100%" height="100%"></a>
-            <a href="./wind.html"><img src="./windmap.png" alt="Latitude vs. Wind Speed" width="100%" height="100%"></a>
-          </div>
-
        </div>
-
-       <div class="col-md-3 pad top"> <br>
-
-        <div class="pull-right">
-          <a href="./humidity.html"><img src="./humiditymap.png" alt="Latitude vs. Humidity" width="100%" height="100%"></a>
-          <a href="./Cloud.html"><img src="./cloudymap.png" alt="Latitude vs. Cloudiness" width="100%" height="100%"></a>
-        </div>
-
-      </div>
-
     </div>
 
 
-  </div>
+
+   </div>
 
   </body>
 
